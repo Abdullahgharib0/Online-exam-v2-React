@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.myheader .nm {
+  background-color: #344a72;
+  
+  font-family: "Roboto", sans-serif;
+}
+.myheader .nm .nav a{
+
+  text-decoration: none;
+  color: white;
+}
+/* start nav */
+
+.myheader .nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+}
+.myheader .nav ul{
+  display: flex;
+  
+}
+.myheader .nav ul li{
+  margin-top: 20px;
+  padding: 15px;
+  align-items: center;
+  
+}
+.myheader .nav ul li a{
+  color: rgb(64, 0, 255);
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.myheader .nav ul li a:hover{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 3p solid blue;
+  border-radius: 10px;
+}
+  /* end nav */
